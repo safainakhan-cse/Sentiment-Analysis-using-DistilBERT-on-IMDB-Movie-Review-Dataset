@@ -8,70 +8,18 @@ Fine-tuned a DistilBERT model for binary sentiment classification (positive/nega
 - **Model:** DistilBERT (distilbert-base-uncased)
 - **Dataset:** IMDb Movie Reviews (50,000 reviews)
 - **Training data used:** 8,000 samples (subset)
-- **Accuracy on test set:** ~92% (or whatever your actual accuracy was — fill this in)
+- **Accuracy on test set:** 89.75%
 
 ## Results
 
-|
- Metric 
-|
- Validation 
-|
- Test 
-|
-|
---------
-|
------------
-|
-------
-|
-|
- Accuracy 
-|
- 89.80% 
-|
- 89.75% 
-|
-|
- Precision 
-|
- 90.43% 
-|
- 88.26% 
-|
-|
-Recall
-|
- 89.73% 
-|
- 91.70% 
-|
-|
- F1-Score 
-|
- 90.08% 
-|
- 89.95% 
-|
-|
- BERTScore 
-|
- 0.9924 
-|
- 0.9924
-|
+- Accuracy: 89.80% (Validation), 89.75% (Test)
+- Precision: 90.43% (Validation), 88.26% (Test) 
+- Recall: 89.73% (Validation), 91.70% (Test)
+- F1-Score: 90.08% (Validation), 89.95% (Test)
+- BERTScore: 0.9924 (Validation), 0.9924 (Test)
 
-
-## Requirements
-transformers
-torch
-datasets
-scikit-learn
-pandas
-numpy
-
-## Usage Open the notebook in Colab and run all cells: https://colab.research.google.com/drive/1ydYN5yhkLSr4dN3Ni9zgpwp7ie4G7xQe?usp=sharing
+## Open the notebook in Colab: 
+https://colab.research.google.com/drive/1ydYN5yhkLSr4dN3Ni9zgpwp7ie4G7xQe?usp=sharing
 [Open in Colab]
 
 ## Tools & Technologies 
